@@ -18,7 +18,7 @@ function getUsers(){
     let html = ""
 
     //api from other sites
-    fetch('https://semis-ai8b.onrender.com',{mode:'cors'}) //{mode:'cors'} cross origin request - if in different URL or domain
+    fetch('https://semis-ai8b.onrender.com/api/semis',{mode:'cors'}) //{mode:'cors'} cross origin request - if in different URL or domain
 
     .then(response => {
         //getting the response from the api
